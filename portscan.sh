@@ -31,7 +31,7 @@ function imprimirPantalla (){
 function guardarCsv (){
     for puerto in "${puertosAbiertos[@]}"
     do
-        echo "$activo;$puerto;abierto" >> resultados.csv
+        echo "$activo;$puerto;Open" >> results.csv
     done
 }
 
